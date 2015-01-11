@@ -1,0 +1,12 @@
+#!/bin/bash
+STR="HELLO WORLD"
+echo $STR
+
+if [ 'foo' = 'foo' ]; then
+	echo expression evaluated as tru
+fi
+
+for i in 'seq 1 10';
+do
+	echo $i
+done
