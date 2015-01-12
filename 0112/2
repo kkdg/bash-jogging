@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo hi world
+
+ls -l | sed -e "s/[aeio]/u/g"
+ls -l | grep "\.txt$"
