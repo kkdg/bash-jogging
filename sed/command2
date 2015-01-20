@@ -1,0 +1,7 @@
+sed -n '
+h;n;H;x
+s/\n/, /
+/Paulo/bower install Print
+s/^/- /
+:Print
+p' book
