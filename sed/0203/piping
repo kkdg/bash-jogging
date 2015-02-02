@@ -1,0 +1,1 @@
+echo day | sed s/day/night/
