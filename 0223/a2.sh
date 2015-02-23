@@ -12,6 +12,7 @@ while read LINE; do
 	((count++))
 done
 
+echo Number of elements: ${#AR[@]}
 echo ${AR[@]}
 
 exec 0<&10 10<&-
