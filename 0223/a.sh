@@ -5,5 +5,8 @@ array=('Debian' 'Redhat' Ubuntu Linux)
 el=${#array[@]}
 
 for((i=0;i<$el;i++)); do
-	echo ${array[${i}]}
+	echo ${array[$i]}
 done
+
+echo $el
+echo ${#array}
